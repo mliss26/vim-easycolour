@@ -15,7 +15,7 @@ Dark:
 	Constant:#ffff66
 	String:LightYellow
 	Character:DarkYellow
-	PreProc:Blue,Style=Bold
+	PreProc:#3030FF,Style=Bold
 	Include:@PreProc
 	Define,Macro:#5555FF,Style=Bold
 	PreCondit:#8888FF,Style=Bold
@@ -28,7 +28,8 @@ Dark:
 	Identifier:Cyan
 	Function:#007777
 	Method:#009966
-	Class:Purple
+	Class:#DD9070
+	Conceal:#2222FF
 	DefinedName:Violet
 	EnumerationValue:#C000C0
 	EnumerationName:#FF22FF
@@ -56,8 +57,8 @@ Dark:
 	VertSplit:Black,White
 	SpellBad:Style=Undercurl,SP=Red
 	SignColumn:BG=#222222
-	Title:Blue,Style=Bold
-	htmlH1:Blue
+	Title:#3030FF,Style=Bold
+	htmlH1:#3030FF
 	htmlH2:#8888FF
 	htmlH3:#9999DD
 	htmlH4:#5555AA
@@ -74,6 +75,10 @@ Dark:
 	hlLevel7:#ffff44
 	hlLevel8:#96cdcd
 	hlLevel9:#698b22
+	EasyMotionTarget:Red,#333333
+	gcovExecuted:DarkGreen
+	gcovNotExecuted:Red
+	gcovNoCode:Grey
 LightAuto:True
 LightOverride:
 	Comment:DarkGreen
